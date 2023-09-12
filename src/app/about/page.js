@@ -12,10 +12,9 @@ export default function About() {
 
         <div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus in adipisci praesentium, 
-            tenetur nulla rem quia voluptatem laborum ex sequi? Cumque ex itaque, fugit atque aspernatur unde. 
-            Atque, excepturi recusandae!
+            Somos uma empresa para facilitar a sua próxima viagem. Com nosso sistema de busca de lugar de acordo com as suas preferencias, você economiza o tempo de procura de um lugar ideal para a viagem e com o nosso plano premium, você consegue achar pacotes de viagem e hotel sem sair da tela! 
           </p>
+          <p className="my-5">Fundadores: Enrico Malachini, Fernando Cesar, Pedro Poline e Vinícius Caíque</p>
         </div>
       </main>
     </>
