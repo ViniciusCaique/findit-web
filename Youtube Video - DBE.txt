@@ -1,0 +1,3 @@
+video - https://www.youtube.com/watch?v=pbuDp50GxV8
+web - https://github.com/ViniciusCaique/findit-web
+back - https://github.com/k0ffeee/FindIT-Challenge-DBE
