@@ -9,7 +9,7 @@ export default function Viagem({ viagem }) {
             {/* {pacote.tipo == "Viagem de avião" ? <PaperAirplaneIcon className="h-6 w-6" /> : null} */}
             <span>{viagem.descricao}</span>
         </div>
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-4">
             <span>{viagem.dataPartida}</span>
             <span>{viagem.dataFim}</span>
             <div className="invisible group-hover:visible">

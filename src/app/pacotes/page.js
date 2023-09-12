@@ -6,6 +6,7 @@ import NavBar from "@/components/NavBar";
 import { Pacote } from "./Pacote";
 
 import { MagnifyingGlassIcon } from '@heroicons/react/24/outline'
+import SearchBar from "@/components/SearchBar";
 
 
 async function getPacotes() {
@@ -23,8 +24,8 @@ export default async function Pacotes() {
       <NavBar active={"pacotes"}/>
       <main className="bg-stone-900 mt-10 m-auto max-w-screen-lg p-8 rounded">
         <h1 className="text-2xl font-bold">Pacotes</h1>
-        <div className="flex justify-between items-end">
-          <MagnifyingGlassIcon className="h-6 w-6" />
+        <div className="flex justify-between items-end gap-12 ">
+          <SearchBar />
           <Button href="/pacotes/new">
               New
           </Button>

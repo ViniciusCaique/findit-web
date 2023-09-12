@@ -13,7 +13,8 @@ export function Pacote({ pacote }) {
             <span>{pacote.nome}</span>
         </div>
         <div className="flex items-center">
-            <span>{pacote.agencia.nome}</span>
+            {!pacote.agencia?.nome ? null : <span>{pacote.agencia.nome}</span>}
+            {/* <span>{pacote.agencia.nome}</span> */}
             <div className="invisible group-hover:visible">
                 <DropMenu />
             </div>

@@ -9,6 +9,7 @@ import { CheckCircleIcon } from "@heroicons/react/24/outline";
 import { useState } from "react";
 import { redirect } from 'next/navigation'
 import { create } from "@/actions/pacotes";
+import TextFieldOptions from "@/components/TextInputOptions";
 
 
 
@@ -31,27 +32,26 @@ export default function FormPacotes() {
 
             <main className="bg-stone-900 mt-10 m-auto max-w-xl p-8 rounded flex gap-3 flex-col">
                 <form action={handleSubmit}>
-                <h1 className="text-2xl">Criar Conta</h1>
+                <h1 className="text-2xl">Cadastrar Pacote</h1>
                 <TextField 
-                    label="nome"
+                    label="Nome"
                     id="nome"
                     name="nome"
                 />
                 <TextField 
-                    label="ícone"
-                    id="ícone"
-                    name="icone"
+                    label="Tipo"
+                    id="tipo"
+                    name="tipo"
                 />
                 <TextField 
-                    label="saldo inicial"
-                    id="saldoInicial"
-                    name="saldoInicial"
+                    label="Descrição"
+                    id="descricao"
+                    name="descricao"
                 />
                 <div className="flex justify-around mt-4">
                     <Button href="/pacotes" variant="secondary">Cancelar</Button>
                     <Button type="button">
-                        <CheckCircleIcon className="h-6 w-6" />
-                        Salvar
+                        Cadastrar
                     </Button>
                 </div>
 
